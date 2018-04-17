@@ -1,14 +1,10 @@
-
-
-
-
 public class paymentObject extends Object
 {
 
 	private double pay;
 	private double tot;
 
-
+// Payment object initialization
 	public paymentObject()
 	{
 		pay = 0;
@@ -16,6 +12,7 @@ public class paymentObject extends Object
 
 	}
 
+// Payment object calculation
 	public paymentObject(double pay, double tot)
 	{
 		this.pay=pay;
